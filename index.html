@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemen Lanjutan HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        form {
+            margin-top: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+        video, audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ELEMEN LANJUTAN HTML</h1>
+    <div>
+        &copy;2025 Faathir XII RPL. All Rights Reserved
+    </div>
+    
+    <!-- Formulir -->
+    <section>
+        <h2>Formulir </h2>
+        <form action="#" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <input type="submit" value="Kirim">
+        </form>
+    </section>
+    
+    <!-- Tabel Data Siswa -->
+    <section>
+        <h2>Data Siswa</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Kelas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Faaathir Nur Rohman</td>
+                    <td>XII RPL </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Fahri Akbar</td>
+                    <td>XII RPL</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Fathan Silalahi</td>
+                    <td>XII RPL</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Irfan Kedudukan</td>
+                    <td>XII RPL</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Rangga Simalakama</td>
+                    <td>XII RPL</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <!-- Video Lokal -->
+    <section>
+        <h2>VIDEO LOKAL</h2>
+        <video controls>
+            <source src="ujangkedu.mp4" type="video/mp4">
+            Browser Anda tidak mendukung tag video.
+        </video>
+    </section>
+    
+    <!-- Iframe ke YouTube -->
+    <section>
+        <h2>Evaluasi-Hindia</h2>
+        <iframe src="https://www.youtube.com/embed/cWrSjCZ5AeE?si=u4LkwHHNzRYq0EEI" allowfullscreen></iframe>
+    </section>
+    
+    <!-- Iframe ke Wikipedia -->
+    <section>
+        <h2>Evaluasi-Hindia</h2>
+        <iframe src="https://id.m.wikipedia.org/wiki/Evaluasi_(lagu)" title="Wikipedia Evaluasi-Hindia"></iframe>
+    </section>
+</body>
+</html>
